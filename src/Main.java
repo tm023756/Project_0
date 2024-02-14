@@ -12,6 +12,7 @@ public class Main {
             if (primeTest(a)==1){
                 prime = String.valueOf(a);
                 writer.write(prime);
+                writer.write("\n");
             }
         }
         writer.close();
