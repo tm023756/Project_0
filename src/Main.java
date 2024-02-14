@@ -16,7 +16,7 @@ public class Main {
             writer.write(firstInt);
             writer.write("\n");
         }
-        for (int i = 1; i <= b ; i++){
+        for (int i = 2; i <= b ; i++){
             st = br.readLine();
             a= Integer.parseInt(st);
             if (primeTest(a)==1){
